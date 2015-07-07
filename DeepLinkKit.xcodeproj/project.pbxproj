@@ -11,7 +11,8 @@
 		2F4988DE1AE71ABC0069EF2B /* DPLRouteHandlerIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4988DD1AE71ABC0069EF2B /* DPLRouteHandlerIntegrationTest.m */; };
 		318A646DB8DB2A99C25B9229 /* Pods_ReceiverDemoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A9F790829E359F16F48B48C /* Pods_ReceiverDemoSwift.framework */; };
 		4D4F412B1B02A96400B710DB /* DPLRegularExpressionSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4F412A1B02A96400B710DB /* DPLRegularExpressionSpec.m */; };
-		52BEA6FE88DC7E3776973D70 /* Pods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F173BA2E66B42CE6D24BF4 /* Pods_Tests.framework */; };
+		59F0E57564C24FFB8BD121EC /* Pods_ReceiverDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBE42039CA1306AF612E45E /* Pods_ReceiverDemo.framework */; };
+		58A6E3A41A6F6DED8E88295C /* DPLTestRouteHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A6E375439CCD263A6F3A86 /* DPLTestRouteHandler.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -84,9 +85,10 @@
 		2F4988DD1AE71ABC0069EF2B /* DPLRouteHandlerIntegrationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DPLRouteHandlerIntegrationTest.m; path = IntegrationTests/DPLRouteHandlerIntegrationTest.m; sourceTree = "<group>"; };
 		3FF31D743244F02D823CACB5 /* Pods-ReceiverDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReceiverDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReceiverDemo/Pods-ReceiverDemo.release.xcconfig"; sourceTree = "<group>"; };
 		4D4F412A1B02A96400B710DB /* DPLRegularExpressionSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLRegularExpressionSpec.m; sourceTree = "<group>"; };
-		4EA7EE926AA6053C8315A931 /* Pods_SenderDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SenderDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B9C2B70B0760281E6125F12 /* Pods-Tests.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.test.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.test.xcconfig"; sourceTree = "<group>"; };
-		5F73949004BC351963535E21 /* Pods-SenderDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SenderDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SenderDemo/Pods-SenderDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		57D5F02E049D7887B4F4ACDF /* Pods-ReceiverDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReceiverDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReceiverDemo/Pods-ReceiverDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		59C6806DC6FB049E0A3371C7 /* Pods-ReceiverDemoSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReceiverDemoSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReceiverDemoSwift/Pods-ReceiverDemoSwift.release.xcconfig"; sourceTree = "<group>"; };
+		58A6E375439CCD263A6F3A86 /* DPLTestRouteHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLTestRouteHandler.m; sourceTree = "<group>"; };
+		58A6EE2855B2425CC971B8B2 /* DPLTestRouteHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLTestRouteHandler.h; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ReceiverDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceiverDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -443,6 +445,8 @@
 			isa = PBXGroup;
 			children = (
 				DE16E9271A42883B00077E18 /* DPLDeepLinkRouter_Private.h */,
+				58A6E375439CCD263A6F3A86 /* DPLTestRouteHandler.m */,
+				58A6EE2855B2425CC971B8B2 /* DPLTestRouteHandler.h */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -1068,6 +1072,7 @@
 				DEA55ADF1A5F2BBC00C312F5 /* DPLDeepLink_AppLinksSpec.m in Sources */,
 				DE3E610F1A3B4492008D6DFC /* NSString_DPLJSONSpec.m in Sources */,
 				DE16E91E1A42733100077E18 /* NSString_DPLTrimSpec.m in Sources */,
+				58A6E3A41A6F6DED8E88295C /* DPLTestRouteHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
