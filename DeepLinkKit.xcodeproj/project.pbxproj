@@ -100,6 +100,9 @@
 		62891E8A1B57FE5A00C2AF4F /* DPLMessageRouteHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPLMessageRouteHandler.swift; sourceTree = "<group>"; };
 		62EE96F11B57011D003D7564 /* ReceiverDemoSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReceiverDemoSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		62EE96F31B570891003D7564 /* DPLProductRouteHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPLProductRouteHandler.swift; sourceTree = "<group>"; };
+		65F47C441B4CA335003A3228 /* DPLMatchedRoute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPLMatchedRoute.h; sourceTree = "<group>"; };
+		65F47C451B4CA552003A3228 /* DPLMatchedRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLMatchedRoute.m; sourceTree = "<group>"; };
+		6B9E60301031FFD1833ECA7A /* Pods-SenderDemo.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SenderDemo.test.xcconfig"; path = "Pods/Target Support Files/Pods-SenderDemo/Pods-SenderDemo.test.xcconfig"; sourceTree = "<group>"; };
 		83D34C3B1B03ECAD00BA6EF1 /* DPLMatchResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPLMatchResult.h; sourceTree = "<group>"; };
 		83D34C3C1B03ECAD00BA6EF1 /* DPLMatchResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPLMatchResult.m; sourceTree = "<group>"; };
 		83D34C3D1B03ECAD00BA6EF1 /* DPLRegularExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPLRegularExpression.h; sourceTree = "<group>"; };
@@ -428,6 +431,8 @@
 			children = (
 				DE16E9201A42882F00077E18 /* DPLDeepLinkRouter.h */,
 				DE16E9211A42882F00077E18 /* DPLDeepLinkRouter.m */,
+				65F47C441B4CA335003A3228 /* DPLMatchedRoute.h */,
+				65F47C451B4CA552003A3228 /* DPLMatchedRoute.m */,
 			);
 			path = Router;
 			sourceTree = "<group>";
